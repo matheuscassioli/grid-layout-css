@@ -1,0 +1,22 @@
+.cabecalho {
+    grid-area: cabecalho;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1.2rem;
+    width: 100%;
+} 
+
+.menu__item{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.menu__item a{
+    color: black;
+} 
+
+.menu__link:hover, .menu__link.ativo{
+    border-bottom: solid 3px blue;
+}
