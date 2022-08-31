@@ -4,3 +4,18 @@
     text-align: center;
     padding: 1rem 0;
 }
+.rodape a{
+    color: black;
+}
+.rodape a:first-child{
+   font-style: italic;
+}
+
+.rodape a:last-child{
+   font-weight: bold;
+ }
+
+.rodape img{
+    width: 20px;
+    vertical-align: middle;
+}
